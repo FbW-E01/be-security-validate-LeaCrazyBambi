@@ -1,0 +1,12 @@
+GET http://localhost:1200/birds
+
+###
+
+POST http://localhost:1200/birds
+Content-Type: application/json
+
+{
+    "species": "Orange-breasted Bunting",
+    "notes": "they were eating",
+    "estimatedAmount": "Two"
+}
